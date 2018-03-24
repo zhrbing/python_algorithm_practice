@@ -1,5 +1,7 @@
 # -*- codding:utf-8 -*-
 
+import math
+
 #求1+2!+3!+...+10!的和
 #方法一：
 def fact(i):
@@ -23,3 +25,9 @@ for n in range(1,11):
     t*=n
     s2+=t
 print(s2)    
+
+#方法三：Python自带的阶乘函数
+s3=0
+for i in range(1,11):
+    s3+=math.factorial(i)
+print(s3)    
