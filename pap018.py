@@ -50,6 +50,8 @@ def read_from_xlsx():
     #通过坐标读取值  
 #     cell_11 = booksheet.cell('A1').value  
 #     cell_11 = booksheet.cell(row=1, column=1).value 
+# print(sheet.max_column)  #获取最大列数
+# print(sheet.max_row)  #获取最大行数
 #===================================================================================================
 # write_to_xlsx()
 read_from_xlsx()
