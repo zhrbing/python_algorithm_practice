@@ -38,6 +38,8 @@ def write_to_xlsx():
 def read_from_xlsx():
     wb=load_workbook(filename)
     sheet=wb.active    #获取当前活跃的sheet,默认是第一个sheet
+#     sheets=wb.sheetnames  #获取工作簿所有sheet名（list）
+#     sheet1=wb[sheets[0]]   #获取第一个sheet
 
     rows=sheet.rows
     cols=sheet.columns
