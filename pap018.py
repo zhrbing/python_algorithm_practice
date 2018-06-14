@@ -57,4 +57,3 @@ def read_from_xlsx():
 read_from_xlsx()
 print(os.path.abspath('.'))
 # os.system(filename)
-
