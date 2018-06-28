@@ -15,8 +15,7 @@ data={
     "Lmt":0
 }
 
-# myurl='http://192.168.19.192:18000/curqh/QueryFutureTodayKline'  #期货行情
-myurl='http://192.168.19.192:18000/curgjhq/QueryFutureTodayKline'  #国际行情
+myurl='***' 
 headers={'Content-Type':'application/json'}
 filename="当日数据查询服务-当日K线查询-"+data['Ei']+".csv"
 
