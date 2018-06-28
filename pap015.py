@@ -63,4 +63,3 @@ print('\n当前路径：'+os.path.abspath('.'))
 os.system(filename)
 # read_from_csv()   
     
-
