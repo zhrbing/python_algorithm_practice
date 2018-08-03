@@ -1,0 +1,71 @@
+{
+	"totalNum": 1,
+	"result": "000000",
+	"service_name": "mbm_kcode_list_resp",
+	"object": [{
+		"exchangeMessage": "接口调用成功",
+		"result": "000000",
+		"allowSpeed": 0,
+		"status": 2,
+		"kcodeAmount": 999,
+		"kcodeExchangePlanList": [{
+			"amount": 100,
+			"result": "000000",
+			"actualExchangeDate": "2018-06-20",
+			"restDays": 0,
+			"days": 29,
+			"speed": 0,
+			"service_name": "mbm_kcode_exchangeplan_info_resp",
+			"resultdesc": "接口调用成功",
+			"stages": 1,
+			"exchangeDate": "2018-06-16"
+		},
+		{
+			"amount": 100,
+			"result": "000000",
+			"actualExchangeDate": "2018-07-16",
+			"restDays": 0,
+			"days": 59,
+			"speed": 0,
+			"service_name": "mbm_kcode_exchangeplan_info_resp",
+			"resultdesc": "接口调用成功",
+			"stages": 2,
+			"exchangeDate": "2018-07-16"
+		},
+		{
+			"amount": 100,
+			"result": "000000",
+			"actualExchangeDate": "",
+			"restDays": 12,
+			"days": 89,
+			"speed": 0,
+			"service_name": "mbm_kcode_exchangeplan_info_resp",
+			"resultdesc": "接口调用成功",
+			"stages": 3,
+			"exchangeDate": "2018-08-15"
+		},
+		{
+			"amount": 699,
+			"result": "000000",
+			"actualExchangeDate": "",
+			"restDays": 42,
+			"days": 119,
+			"speed": 0,
+			"service_name": "mbm_kcode_exchangeplan_info_resp",
+			"resultdesc": "接口调用成功",
+			"stages": 4,
+			"exchangeDate": "2018-09-14"
+		}],
+		"service_name": "mbm_kcode_info_req",
+		"kcode": "dAYeBmT8Xr",
+		"activateMessage": "接口调用成功",
+		"resultdesc": "接口调用成功",
+		"n1ActIndex": 0,
+		"id": 5504531,
+		"kcodeType": "H1",
+		"deviceName": "移动硬盘",
+		"unExchangeAmount": 799,
+		"activateTime": "2018-05-18 17:48:42"
+	}],
+	"resultdesc": "接口调用成功"
+}
