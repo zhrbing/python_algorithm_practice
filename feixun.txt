@@ -57,7 +57,7 @@
 			"exchangeDate": "2018-09-14"
 		}],
 		"service_name": "mbm_kcode_info_req",
-		"kcode": "dAYeBmT8Xr",
+		"kcode": "********",
 		"activateMessage": "接口调用成功",
 		"resultdesc": "接口调用成功",
 		"n1ActIndex": 0,
