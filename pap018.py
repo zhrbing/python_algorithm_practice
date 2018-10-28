@@ -19,6 +19,7 @@ print(data_keys)
 def write_to_xlsx():
     wb=Workbook()
     sheet=wb.active  #获取当前活跃的sheet,默认是第一个sheet
+#     sheet=wb.create_sheet(title="sheet1",index=0)
 #     sheet.cell(1,1).value = 0   #索引从1开始  
 #     sheet.append([11,87])  #可以使用append插入一行数据  
     lg=len(code_list)
